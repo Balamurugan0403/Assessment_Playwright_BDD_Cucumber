@@ -1,0 +1,309 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-in-the-application;verify-login-with-valid-and-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Verify login with valid and invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89680299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2569526800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 479378400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters email \"kalai123@gmail.com\" and password \"kalai@1234\"",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56675100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519325699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see the \"success\" message",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39268300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12551000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-in-the-application;verify-login-with-valid-and-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Verify login with valid and invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68649999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2320535899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 462612000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters email \"kalai123@gmail.com\" and password \"kalaijjj@421\"",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52654599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 499832000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see the \"Login was unsuccessful. Please correct the errors and try again.\" message",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40493599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12716499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-in-the-application;verify-login-with-valid-and-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify login with valid and invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68115600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2414894599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531555000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters email \"kalaitt123@gmail.com\" and password \"kalai@1234\"",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58569100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483230900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see the \"Login was unsuccessful. Please correct the errors and try again.\" message",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40469900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10041600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-in-the-application",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login in the application",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
