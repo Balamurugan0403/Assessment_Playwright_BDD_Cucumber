@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 89680299
+              "duration": 165005799
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2569526800
+              "duration": 5252500600
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 479378400
+              "duration": 508681399
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56675100
+              "duration": 64683899
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 519325699
+              "duration": 461200499
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39268300
+              "duration": 38204100
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12551000
+              "duration": 15728199
             }
           }
         ],
@@ -111,7 +111,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 68649999
+              "duration": 64417699
             }
           },
           {
@@ -124,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2320535899
+              "duration": 2678081799
             }
           },
           {
@@ -137,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 462612000
+              "duration": 508562500
             }
           },
           {
@@ -150,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52654599
+              "duration": 46531999
             }
           },
           {
@@ -163,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 499832000
+              "duration": 532571100
             }
           },
           {
@@ -176,7 +176,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40493599
+              "duration": 33619800
             }
           },
           {
@@ -184,7 +184,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12716499
+              "duration": 13037599
             }
           }
         ],
@@ -208,7 +208,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 68115600
+              "duration": 65467400
             }
           },
           {
@@ -221,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2414894599
+              "duration": 2664449000
             }
           },
           {
@@ -234,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 531555000
+              "duration": 475741099
             }
           },
           {
@@ -247,7 +247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58569100
+              "duration": 54382100
             }
           },
           {
@@ -260,7 +260,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 483230900
+              "duration": 464022600
             }
           },
           {
@@ -273,7 +273,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40469900
+              "duration": 33411100
             }
           },
           {
@@ -281,7 +281,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10041600
+              "duration": 9417900
             }
           }
         ],
@@ -305,5 +305,144 @@
       }
     ],
     "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-in-the-applicationfunctionality;verify-successful-registration",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify successful registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 70279600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2650414199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user navigates to the register page",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468828400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters registration details",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144695700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the Register button",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 940501000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the registration should be successful",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32191500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user clicks the continue button",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465535700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "it navigates to the Homepage",
+            "match": {
+              "location": "src\\test\\steps\\register.step.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29751299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7937500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-in-the-applicationfunctionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Register in the applicationFunctionality",
+    "tags": [
+      {
+        "name": "@Register",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\register.feature"
   }
 ]
