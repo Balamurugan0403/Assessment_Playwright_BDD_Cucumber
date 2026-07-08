@@ -1,5 +1,5 @@
 @Register
-Feature: Register in the applicationFunctionality
+Feature: Register in the application
 
   Background:
     Given the user launch the application
